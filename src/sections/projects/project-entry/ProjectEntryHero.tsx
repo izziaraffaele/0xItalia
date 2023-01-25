@@ -4,7 +4,7 @@ import { Box, Button, Typography, Stack, IconButton } from '@mui/material';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
-import LinkedinIcon from '@mui/icons-material/Linkedin';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import TelegramIcon from '@mui/icons-material/Telegram';
 import LaunchIcon from '@mui/icons-material/Launch';
@@ -36,7 +36,7 @@ const SOCIALS: Record<
   },
   linkedin: {
     name: 'Linkedin',
-    icon: <LinkedinIcon sx={{ color: '#006097' }} />,
+    icon: <LinkedInIcon sx={{ color: '#006097' }} />,
     baseUrl: 'https://linkedin.com/in/',
   },
   twitter: {

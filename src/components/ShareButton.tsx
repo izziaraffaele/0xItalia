@@ -4,7 +4,7 @@ import { FabProps, SpeedDial, SpeedDialAction } from '@mui/material';
 import ShareIcon from '@mui/icons-material/Share';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import RedditIcon from '@mui/icons-material/Reddit';
-import LinkedinIcon from '@mui/icons-material/Linkedin';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from '@mui/icons-material/Twitter';
 // hooks
 import { useResponsive } from '../hooks/useResponsive';
@@ -30,7 +30,7 @@ const SOCIALS = [
   },
   {
     name: 'Linkedin',
-    icon: <LinkedinIcon sx={{ color: '#006097' }} />,
+    icon: <LinkedInIcon sx={{ color: '#006097' }} />,
     url: (data: Sharable) => getShareUrl('linkedin', { url: data.url || '#' }),
   },
   {
