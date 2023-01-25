@@ -1,0 +1,390 @@
+[
+  {
+    "slug": "0xbusiness",
+    "name": "0xBusiness",
+    "type": "community",
+    "status": "active",
+    "tagline": "Dove Aziende e Talenti si incontrano per lavorare nel Web3",
+    "description": "\nLa prima Community-Hub al mondo dove si incontrano Talenti ed Aziende per lavorare nel Web3.\n\nTrattiamo tematiche relative al lavoro nel settore ed aiutiamo le persone a trovare lavoro nel format #workincrypto sul nostro canale Telegram\n",
+    "url": "https://linktr.ee/0xBusiness",
+    "image": "/media/projects/0xbusiness.png",
+    "topics": [],
+    "socialNetworks": {
+      "twitter": "0xbusiness"
+    },
+    "createdAt": "2023-01-19T08:29:56.059Z"
+  },
+  {
+    "slug": "BottegaDAO",
+    "name": "BottegaDAO",
+    "type": "organization",
+    "status": "active",
+    "tagline": "We bridge the gap between ideas and reality through top-notch Web3 solutions",
+    "description": "\nBottega è un collettivo decentralizzato di artisti, collezionisti, curatori, critici, scrittori, sviluppatori, appassionati di arte, blockchain e nuove tecnologie.\n\nLa nostra azione è focalizzata ed ispirata al movimento della Crypto Arte ed esploriamo ogni tipo di espressione artistica contemporanea.\nIl coraggio, l'audacia, l’indipendenza sono elementi essenziali della nostra poesia.\n\nEsaltiamo il valore dell’espressione individuale, tramite la creatività.\nAbbracciamo il concetto di decentralizzazione sia artistica che finanziaria che dell’intelletto.\nRiaffermiamo il valore della proprietà intellettuale, del pensiero critico individuale, e promuoviamo il raggiungimento dell’ indipendenza economica per ogni Artista.\n\nVogliamo che l’Arte sia fruibile e alla portata di tutti, non destinata ad un circuito elitario, svincolata dalle convenzioni speculative del mercato contemporaneo e main stream, riportando l’artista e il suo lavoro al centro dell’attenzione, senza intermediazioni, favorendo uno scambio reale e diretto con appassionati e collezionisti.\n\nLa Bottega è un centro di scambio ideale e culturale, con il fine di promuovere e divulgare l’arte attraverso canali di informazione e comunicazione non esclusivamente canonici, utilizzando nuove tecnologie quali NFT, blockchain, AR,VR, AI.\n\nBottega si promuove come parte attiva dello sviluppo e dell’innovazione del web3, dando sempre risalto alla concettualità, alla ricerca, all’ avanguardia artistica e tecnologica.\n",
+    "url": "https://bottegadao.eth.link/",
+    "image": "/media/projects/bottegadao.jpeg",
+    "topics": [],
+    "socialNetworks": {
+      "twitter": "BottegaDAO"
+    },
+    "createdAt": "2023-01-19T09:32:30.119Z"
+  },
+  {
+    "slug": "avascan",
+    "name": "Avascan",
+    "type": "product",
+    "status": "active",
+    "tagline": "Il più popolare scanner per la blockchain di Avalanche",
+    "description": "\nAvascan, un explorer blockchain che consente agli utenti di esplorare una blockchain, le transazioni, i validatori, i delegatori, le risorse e gli smart-contract su Avalanche.\n\nAvalanche è una rete di blockchain: una piattaforma così complessa richiede un modo semplice per esplorarla. Blockchain, transazioni, validatori, delegatori, risorse e contratti intelligenti sono tutti parte dello stesso quadro.\n\nAvascan explorer è la risposta: progettato pensando a velocità, privacy e scalabilità per essere uno sportello unico, consente agli utenti di navigare e agli sviluppatori di costruire sulle sue API.\n\nIl team di Avascan (prevalentemente italiano) è destinatario di una sovvenzione Avalanche-X, ed è coinvolto nella comunità di sviluppatori di Avalanche.\n",
+    "url": "https://avascan.info/",
+    "image": "/media/projects/avascan.jpeg",
+    "topics": [],
+    "chain": "avalanche",
+    "socialNetworks": {
+      "twitter": "AvascanExplorer",
+      "telegram": "AvascanExplorer"
+    },
+    "createdAt": "2023-01-19T09:58:08.873Z"
+  },
+  {
+    "slug": "chainside",
+    "name": "Chainside",
+    "type": "organization",
+    "status": "active",
+    "tagline": "Accetta pagamenti in bitcoin",
+    "description": "\nA Chainside crediamo che Bitcoin sia destinato ad affermarsi sempre più come uno dei principali standard monetari a livello globale, facilitando la transizione da un’economia gestita da intermediari ad una più aperta..\n\nLa nostra missione è semplificare Bitcoin per i commercianti, rendendo la sua adozione ed il suo utilizzo semplice come in altri sistemi di pagamento digitale. Per questo motivo, offriamo una piattaforma che rende l’integrazione con Bitcoin rapida e scalabile sia su e-commerce che in punti di vendita fisici.\n\nCentinaia di esercenti stanno già accettando Bitcoin con ChainsidePay tra cui anche Mondo Convenienza e Sorgenia\n",
+    "url": "https://www.chainside.net/",
+    "image": "/media/projects/chainside.jpeg",
+    "topics": ["payments"],
+    "socialNetworks": {
+      "twitter": "chainside",
+      "linkedin": "chainside"
+    },
+    "createdAt": "2023-01-24T18:39:24.617Z"
+  },
+  {
+    "slug": "checksig",
+    "name": "Checksig",
+    "type": "organization",
+    "status": "active",
+    "tagline": "Soluzioni Bitcoin e cripto per investitori privati e istituzionali.",
+    "description": "\nBitcoin, l’equivalente digitale dell’oro, è tra gli asset più performanti dell’ultimo decennio e ha segnato la nascita di una nuova asset class. Talmente nuova, che per comprenderla correttamente servono molte diverse competenze specialistiche.\n\nInoltre, il mondo cripto è ancora un “far west”: affrontarlo con soluzioni fai-da-te è complesso e rischioso. Sono sempre dietro l’angolo frodi, errori, problemi regolamentari, disastri tecnologici, persino pericoli fisici. Meglio contare su compagni di viaggio affidabili.\n\nPer questo c’è CheckSig e il suo team.\n\n**Come nasce CheckSig**\nTutto ha avuto inizio con il Digital Gold Institute (DGI) il nostro centro di consulenza, formazione, ricerca e sviluppo su Bitcoin, crypto-asset e blockchain.\n\nÈ qui che professionisti provenienti da diversi contesti – dalla finanza applicata al mondo universitario, dal settore bancario a quello della consulenza strategica – si sono uniti per dare vita a CheckSig. Prima focalizzata sulla custodia, l’azienda si è evoluta fino ad assumere la sua attuale identità: partner e punto di riferimento per la gestione professionale di tutti gli aspetti Bitcoin e cripto.\n\n**Cosa significa il nome**\nLa tua sicurezza è la nostra missione principale: per questo abbiamo scelto un nome all’apparenza insolito, ma che definisce il nostro core business.\n\n“OP_CHECKSIG” è un’istruzione del linguaggio Bitcoin Script: verifica la validità delle firme necessarie ad autorizzare una transazione. Un elemento fondativo, quindi, per la sicurezza dell’intero protocollo Bitcoin.\n",
+    "url": "https://www.chainside.net/",
+    "image": "/media/projects/chainside.jpeg",
+    "topics": ["payments"],
+    "socialNetworks": {
+      "twitter": "CheckSig_safe",
+      "linkedin": "checksig"
+    },
+    "createdAt": "2023-01-24T19:10:29.994Z"
+  },
+  {
+    "slug": "conio",
+    "name": "Conio",
+    "type": "organization",
+    "status": "active",
+    "tagline": "Tecnologia per valute digitali",
+    "description": "\nFondata nel 2015 a San Francisco dall’idea di imprenditori italiani, Conio ha lanciato il primo wallet Bitcoin per smartphone in Italia. La nostra missione era rendere le cripto e le valute digitali alla portata di tutti. Per questo abbiamo deciso di brevettare un sistema di custodia multisignature che rende facile e sicuro custodire digital asset.\n\nAbbiamo conquistato, fin dall’inizio, la fiducia di investitori istituzionali, fra cui importanti banche italiane, che hanno finanziato il progetto e creato partnership. Oggi, oltre ad aver raggiunto oltre 350.000 clienti privati, offriamo a banche ed istituzioni finanziarie soluzioni per la gestione di asset digitali.\n",
+    "url": "https://www.conio.com/",
+    "image": "/media/projects/conio.jpeg",
+    "topics": [],
+    "socialNetworks": {
+      "twitter": "conio",
+      "linkedin": "conio"
+    },
+    "createdAt": "2023-01-21T15:07:37.685Z"
+  },
+  {
+    "slug": "decrypted",
+    "name": "DeFi Italia",
+    "type": "community",
+    "status": "active",
+    "tagline": "La community di riferimento in Italia per la divulgazione del mondo cripto.",
+    "description": "\nDecrypted è un progetto i cui contenuti e community rappresentano un punto di riferimento per tutti coloro che intendono decriptare il mondo delle criptovalute.\n",
+    "url": "https://shor.by/xl6i",
+    "image": "/media/projects/decrypted.jpg",
+    "topics": [],
+    "socialNetworks": {
+      "twitter": "Decrypted_it",
+      "instagram": "de.crypted",
+      "youtube": "UC3x0uH67ErYk0p0oWKVsiTQ"
+    },
+    "createdAt": "2023-01-19T08:22:32.933Z"
+  },
+  {
+    "slug": "defi_italia",
+    "name": "DeFi Italia",
+    "type": "community",
+    "status": "active",
+    "tagline": "Il Network Italiano della Finanza Decentralizzata. Su DeFI italia troverai tutto sul farming! “No APY, no PARTY!”",
+    "description": "\nUna community di persone appassionate per quanto riguarda la finanza Decentralizzata. Ad oggi si contano su telegram circa 4000-5000 utenti unici.\n",
+    "url": "https://linktr.ee/ItaliaDeFi",
+    "image": "/media/projects/defi_italia.png",
+    "topics": ["defi"],
+    "socialNetworks": {
+      "twitter": "DeFi_Italia"
+    },
+    "createdAt": "2023-01-19T07:11:54.085Z"
+  },
+  {
+    "slug": "eth_turin",
+    "name": "ETHTurin",
+    "type": "community",
+    "status": "active",
+    "tagline": "Punto di riferimento per la community torinese",
+    "description": "\nETHTurin è una community nata dal primo local impact hackathon virtuale. I\n\nDurante l'evento ETHTurin ha accolto hackers, aziende ed individui che vogliono supportare e costruire applicazioni con un impatto ambientale, sociale e decisionale (ESG), usando la blockchain di Ethereum\n\nI workshop + hackaton sono stati un'opportunità di lavorare accanto a sviluppatori, leader di pensiero, advisors e aziende che stanno costruendo le infrastrutture e le applicazioni che alimenterà un futuro sostenibile per le generazioni future.\n\nNon c'è mai stato un momento migliore per far parte di questa comunità per avere un vero impatto sulla nostra città e società.\n\nI partecipanti, i relatori e gli hacker hanno partecipato da qualsiasi luogo poiché l'evento era online.\n",
+    "url": "https://ethlocal.co/ethturin/hackathon",
+    "image": "/media/projects/eth_turin.jpeg",
+    "topics": ["media", "event"],
+    "socialNetworks": {
+      "twitter": "EthTurin"
+    },
+    "createdAt": "2023-01-19T08:46:58.394Z"
+  },
+  {
+    "slug": "fleap",
+    "name": "Fleap",
+    "type": "product",
+    "status": "active",
+    "tagline": "La prima piattaforma di Smart Governance su blockchain per l'erogazione e lo scambio di asset digitali",
+    "description": "\nFleap è un software basato su tecnologia Blockchain Hyperledger per emettere e scambiare asset digitali di natura finanziaria e non solo (ad esempio opere d’arte).\n\nFleap si rivolge a quelle aziende che intendono digitalizzare la struttura societaria, fornendo servizi quali la digitalizzazione del libro soci delle SpA e delle SRL, la gestione di eventi societari come aumenti di capitale, trasferimento quote, votazioni assembleari, etc.\n\nGrazie al processo di digitalizzazione, le aziende sono in grado di garantire l’incorruttibilità dei dati, la trasparenza e l’immutabilità del registro.\n",
+    "url": "http://fleap.io/",
+    "image": "/media/projects/fleap.jpeg",
+    "topics": ["governance"],
+    "socialNetworks": {
+      "instagram": "fleap.io"
+    },
+    "createdAt": "2023-01-23T06:06:19.650Z"
+  },
+  {
+    "slug": "folks_finance",
+    "name": "Folks Finance",
+    "type": "product",
+    "status": "active",
+    "tagline": "Non-custodial DeFi tools for managing your digital assets",
+    "description": "\nFolks Finance is a non-custodial DeFi protocol providing financial tools for digital assets. Smart-contract technology empowers Folks Finance to offer advanced strategies while eliminating risks of centralized interference. Users can deposit assets to earn yield, as well as use their deposits as collateral for loans. Integration of the Deflex DEX aggregator enables native swaps on the protocol and composability with the other operations. Flash loans give developers the keys to deep liquidity. Algo Liquid Governance provides the most efficient method of participating in Algorand Governance through gALGO, whose use cases continue to expand rapidly.\n",
+    "url": "https://folks.finance/",
+    "image": "/media/projects/folks_finance.jpeg",
+    "topics": [],
+    "socialNetworks": {
+      "twitter": "folksfinance",
+      "youtube": "FolksFinance"
+    },
+    "createdAt": "2023-01-21T15:10:22.143Z"
+  },
+  {
+    "slug": "genuino",
+    "name": "Genuino",
+    "type": "product",
+    "status": "active",
+    "tagline": "Collect digital. Own physical.",
+    "description": "\nGENUINO è l’universo per collezionisti mai visto prima, dove gli NFT si connettono agli oggetti del mondo reale.\n\nNon importa se sei un fan, un collezionista o un esperto cripto investitore, GENUINO è la destinazione per tutti gli appasionati di Sport, Musica, Arte e Fashion per comprare, vendere o scambiare oggetti da collezione digitali e fisici.\n\nSiamo il ponte che unisce il mondo fisico a quello digitale, costruito per creare una relazione indissolubile tra creatori e collezionisti e garantire a tutti l’opportunità di possedere il momento dell’atto creativo.\n\n## PER I CREATORI\n\n**GENUINO SIGNIFICA PASSIONE**\n\nCollaboriamo con brand, squadre, atleti, musicisti ed artisti per trasformare quel guizzo di genio che è l’atto creativo in oggetti collezionabili esclusivi per far vivere ai collezionisti esperienze senza pari. Amanti di Sport, Musica, Arte e Fashion, GENUINO vi da il benvenuto.\n\n## PER I COLLEZIONISTI\n\n**GENUINO SIGNIFICA FIDUCIA**\n\nInnovazione e tecnologia sono le basi del nostro DNA. Tutto quello che facciamo si fonda su dati immutabili. Attraverso il nostro protocollo di certificazione decentralizzato costruiamo fiducia, garantiamo trasparenza e tracciabilità con l’obiettivo di ridurre drasticamente la contraffazione.\n",
+    "url": "https://genuino.world/it",
+    "image": "/media/projects/genuino.jpeg",
+    "topics": ["nft", "iot"],
+    "socialNetworks": {
+      "twitter": "genuinoworld",
+      "instagram": "genuinoworld",
+      "telegram": "genuino_world"
+    },
+    "createdAt": "2023-01-22T06:54:38.459Z"
+  },
+  {
+    "slug": "iconium",
+    "name": "Iconium",
+    "type": "organization",
+    "status": "active",
+    "tagline": "Paving the Way for the Digital Assets Revolution",
+    "description": "\nDigital Assets will become the core of a new mon­e­tary ar­chi­tec­ture reshaping the current financial system to make it permissionless and accessible to anyone in the World. Blockchain will change the way we transfer value in any industry by developing a World where people get to participate in the value they create.\n\nFounded in 2018, ICONIUM is a private Company that invests in digital assets and blockchain projects that will lead the decentralized internet era.\nWith over 25 years of experience in the tech and digital industry and more than five years of experience in the blockchain industry, our team has already invested in dozens of projects and analyzed more than 2000 projects over the past 4 years.\nAt ICONIUM, we value curiosity of mind and an entrepreneurial mindset. We are always looking for teams both in the launch and in the growth phase to help them achieve their goals. We are long-term investors and we want to contribute to the growth of projects that will shape the economy of tomorrow.\n",
+    "url": "https://www.iconium.it/",
+    "image": "/media/projects/iconium.jpeg",
+    "topics": [],
+    "socialNetworks": {
+      "twitter": "iconiumv",
+      "linkedin": "iconium.it"
+    },
+    "createdAt": "2023-01-24T18:50:15.640Z"
+  },
+  {
+    "slug": "moneywide",
+    "name": "Moneywide",
+    "type": "community",
+    "status": "active",
+    "tagline": "La Finanza a portata di tutti.",
+    "description": "\nSiamo una Social Communiy, un vero e proprio Network con eventi fisici e digitali, rewards e contenuti di approfondimento che offrano il maggior valore possibile dedicati all’industria Fintech, dalla DeFi, FutureFi e CeFi.\n\nAll’interno di Moneywide entrerai in contatto con tanti appassionati del mondo Fintech nelle sue varie forme, e sopratutto cosa ancora più importanti con i rappresentanti dei player stessi dei prodotti che più usi tutti i giorni.\n",
+    "url": "https://www.moneywide.io/",
+    "image": "/media/projects/moneywide.jpg",
+    "topics": ["defi", "cefi", "media", "event"],
+    "socialNetworks": {
+      "youtube": "CryptoCoinference"
+    },
+    "createdAt": "2023-01-21T14:47:26.439Z"
+  },
+  {
+    "slug": "nft_italia",
+    "name": "NFT Italia",
+    "type": "community",
+    "status": "active",
+    "tagline": "Prima community nata in Italia a giugno 2020 che continua a informare sul mondo degli NFT a 360° senza scopo di lucro",
+    "description": "\nNFT Italia è una community italiana che tratta di NFT(token non fungibili) a 360 gradi partendo dai videogiochi su blockchain🎮, carte collezionabili🎴, criptoarte e molto altro ancora.\n\nConfrontati con centinaia di altre persone appassionate di NFT!\n",
+    "url": "https://discord.gg/nftitalia",
+    "image": "/media/projects/nft_italia.jpg",
+    "topics": ["nft", "metaverse"],
+    "socialNetworks": {
+      "twitter": "nftitalia"
+    },
+    "createdAt": "2023-01-19T07:23:14.179Z"
+  },
+  {
+    "slug": "nft_spaghi",
+    "name": "NFT spaghetti",
+    "type": "community",
+    "status": "active",
+    "tagline": "🇮🇹 Comunella NFT 🎙Podcast settimanale",
+    "description": "\nNFT spaghetti è una comunella online e non solo, dedicata ai Token Non Fungibili (NFT).\n\nSui nostri canali gli utenti condividono informazioni, opportunità, eventi ed esperienze legate a questa tecnologia.\n\nLo spazio vocale su Twitter è ospitato 1 volta alla settimana solitamente il mercoledì alle 21.30.\n\nLe registrazioni durano un mese e sono ascoltabili su Discord.\n",
+    "url": "https://linktr.ee/NFTspaghetti",
+    "image": "/media/projects/nft_spaghi.jpg",
+    "topics": ["nft", "metaverse"],
+    "socialNetworks": {
+      "twitter": "NFTspaghi"
+    },
+    "createdAt": "2023-01-19T07:42:40.458Z"
+  },
+  {
+    "slug": "ninfa",
+    "name": "Ninfa",
+    "type": "product",
+    "status": "active",
+    "tagline": "A curated multi-category digital assets marketplace",
+    "description": "\nNinfa.io is a **curated multi-category retailer** for personalizing your digital identity via digital art and collectibles enabled by NFTs on Ethereum Blockchain.\n\n# Curated\n\n**Curated** in the sense that artists need to be approved before being able to join our marketplace and mint their pieces.\n\nHowever, we feel that the current platform’s curation style is not objective enough. We have asked ourselves: how can a marketplace rely only on its internal team of curators to select artists? How can it be sure to find all the hidden talent in the ecosystem? How can it ensure fairness regarding talents’ geographical, gender and art genre distribution? It can’t.\n\nThis is why Ninfa adopted the **first expertise-based collaborative approach to curation**. Curators and **Art Galleries, Design Studios and Brands have a dedicated user type** which can onboard artists on the platform as we do with independent artists. These user types can also manage their artists’ artworks, create exhibitions, sell pieces, earn cut from their sales, and, in case they need, drop NFTs as a brand.\n\n# Multi-category\n\nNinfa is **multi-category** because we feel that individuals will need a platform covering many different needs including but not limited to art, e.g. digital fashion, avatars, and design objects. That is why our vision is **“Expanding Identities Beyond Physical Boundaries”.**\n\nThe world is becoming more and more digital as we speak. Especially after the covid pandemic, many human interactions and basic human activities are conducted entirely digitally or somehow impacted/enhanced by digital technologies.\n\nThis is the metaverse to us, not necessarily a Virtual World, but the constant and permanent presence of digital means in our life. In this context, it is evident that our digital selves are getting more and more important. But digital avatars, especially before NFTs, tend to be standardized accounts rather than personalities. **Thus, individuals will feel the need to define their digital persona further and transmit all their tastes, preferences and habits to their digital equivalents**. How?\n\n**There is no better way to express ourselves than collecting**: items, artworks, collectables, PFPs or acquiring digital fashion items and metaverse objects/lands to personalize our digital life further.\n\n# **Vision**\n\n## “In a world which is getting more and more digital, we want to offer individuals a place where to expand their identities beyond physical boundaries via the collection of digital collectibles”\n\n# Mission\n\n## “To sustain our vision, we think it is key to build a tech platform bringing high-end retail experiences to the digital collectible world, a platform enriched with a meaningful and curated set of products over a wide range of categories”\n",
+    "url": "https://ninfa.io/",
+    "image": "/media/projects/ninfa.jpeg",
+    "topics": [],
+    "socialNetworks": {
+      "twitter": "Ninfa_io",
+      "instagram": "ninfa.io"
+    },
+    "createdAt": "2023-01-21T16:15:06.052Z"
+  },
+  {
+    "slug": "quadrans",
+    "name": "Quadrans",
+    "type": "organization",
+    "status": "active",
+    "tagline": "Un sistema blockchain personalizzabile e adatto ad ogni scopo",
+    "description": "\nThe first version of Quadrans blockchain was implemented in 2012 and has been successfully\nused to run business operations under the Foodchain brand.\n\nDuring this journey, the experience gained by the variety of use cases and the expertise shared by businesses, institutions, government agencies and academic partners have contributed to the evolution of Quadrans technology.\n\nQuadrans is an open-source, public, decentralized platform enabled by blockchain technology\nwith the mandate to build a digital infrastructure that combines customizable data sharing,\ncryptography and smart-contract automation and establish a self-governed digital economy\nbetween businesses, institutions and individuals globally.\n\nThe aim of Quadrans Foundation is the research and development, promotion, education and\nsupport of the Quadrans blockchain, to enable a trusted and efficient communication network to\nfacilitate the creation of global cross-industry standards and provide the digital fabric for the deployment of a new generation of decentralized applications (DApps) into the IoT system.\n",
+    "url": "https://quadrans.io/",
+    "image": "/media/projects/quadrans.png",
+    "topics": [],
+    "socialNetworks": {
+      "twitter": "quadrans",
+      "linkedin": "quadrans-foundation"
+    },
+    "createdAt": "2023-01-24T18:16:46.372Z"
+  },
+  {
+    "slug": "spaghett_eth",
+    "name": "spaghett.ETH",
+    "type": "community",
+    "status": "active",
+    "tagline": "Primo Ethereum Hackfest in Italia",
+    "description": "\nSpaghettETH è la community italiana dei builder di Ethereum. Ci occupiamo di eventi, educazione, R&D e funding di progetti “public good” potenziati dal web3.\n",
+    "url": "https://www.spaghett-eth.com/",
+    "image": "/media/projects/spaghett_eth.png",
+    "topics": ["event"],
+    "socialNetworks": {
+      "twitter": "spaghettETH"
+    },
+    "createdAt": "2023-01-19T08:43:40.941Z"
+  },
+  {
+    "slug": "therocktrading",
+    "name": "The Rock Trading",
+    "type": "organization",
+    "status": "active",
+    "tagline": "La prima piattaforma europea per comprare criptovalute",
+    "description": "\nThe Rock Trading è l'exchange attivo da più tempo in Europa (da giugno 2011). Opera in un ambiente completamente regolamentato e soggetto ai regolamenti europei e alle direttive anti-riciclaggio. The Rock Trading offre un porta di ingresso al mondo crypto per il mercato europeo e delle commissioni che vanno dall 0.2% allo 0.02%. L'azienda s'impegna ad assicurare a tutti i clienti europei un accesso semplice a fully compliant al mondo delle crypto.\n",
+    "url": "https://www.therocktrading.com/",
+    "image": "/media/projects/therocktrading.jpeg",
+    "topics": [],
+    "socialNetworks": {
+      "twitter": "therocktrading"
+    },
+    "createdAt": "2023-01-21T16:03:41.169Z"
+  },
+  {
+    "slug": "urbe_eth",
+    "name": "Urbe.eth",
+    "type": "community",
+    "status": "active",
+    "tagline": "Connecting Web3 frens in Rome, one meetup at the time",
+    "description": "\nUrbe.eth è la prima comunità per i costruttori di Web3 a Roma. I costruttori sono tutti coloro che contribuiscono allo sviluppo e all'adozione di Web3 (sviluppatori, designer, imprenditori, ricercatori e altri). La nostra missione è quella di riunire le persone che stanno promuovendo la crescita e la popolarità di Web3, creando spazi (online e offline) per favorire il networking, le attività educative e le collaborazioni tra costruttori per avviare nuovi progetti.\n",
+    "url": "https://linktr.ee/urbe.eth",
+    "image": "/media/projects/urbe_eth.png",
+    "topics": ["media", "event"],
+    "socialNetworks": {
+      "twitter": "urbeEth"
+    },
+    "createdAt": "2023-01-13T09:38:35.593Z"
+  },
+  {
+    "slug": "visiongame",
+    "name": "Vision Game",
+    "type": "product",
+    "status": "active",
+    "tagline": "Ultimate gaming experience amplified by Blockchain",
+    "description": "\nGaming companies have to split resources between providing a great gameplay experience, raising the necessary funds and gaining the know-how required to implement complex blockchain features.\n\nUsers have to face complicated onboarding processes often requiring substantial initial investments, and have a hard time offering early support for the projects they like, trusting that NFTs will turn later into valuable in-game assets.\n\nVisionGame brings the traditional game publishing experience, boosted for the blockchain. A suite of unique products, technical and creative services, all to support the ever-growing gaming blockchain industry, raising the bar one game at a time.\n",
+    "url": "https://visiongame.io/",
+    "image": "/media/projects/visiongame.jpeg",
+    "topics": ["gaming", "nft"],
+    "socialNetworks": {
+      "twitter": "visiongame_"
+    },
+    "createdAt": "2023-01-24T18:45:32.335Z"
+  },
+  {
+    "slug": "web3mi",
+    "name": "Web3Mi",
+    "type": "community",
+    "status": "active",
+    "tagline": "La community Milanese dedicata al Web3",
+    "description": "\nWeb3Mi è la community del Web3 milanese. Riuniamo i builders del settore con il sogno di creare un'ecosistema tutto italiano.\n",
+    "url": "https://linktr.ee/web3mi",
+    "image": "/media/projects/web3mi.jpg",
+    "topics": ["media", "event"],
+    "socialNetworks": {
+      "twitter": "web3mi"
+    },
+    "createdAt": "2023-01-19T08:38:19.853Z"
+  },
+  {
+    "slug": "yomi",
+    "name": "Yomi",
+    "type": "organization",
+    "status": "active",
+    "tagline": "We bridge the gap between ideas and reality through top-notch Web3 solutions",
+    "description": "\nYomi è un laboratorio di innovazione e sviluppo che supera i limiti fisici per liberare gli spazi e i luoghi digitali, dove tutti hanno l'opportunità di esprimere se stessi e le loro idee senza paura di non essere ascoltati.\n\nSiamo un giovane, eterogeneo e dinamico team di appassionati di blockchain, con un approccio pragmatico al lavoro, basato sulla formazione continua. Trasformare la ricerca, lo studio e le nostre invenzioni in tecnologie utilizzate da un ampio pubblico è la stella polare che guida il nostro team ogni giorno.\n\nColmiamo il divario tra idee e realtà fornendo soluzioni Web3 di prima qualità: Smart contract, integrazioni Web3, DApps, NFT, piattaforme DeFi, AI sono solo alcuni dei servizi che offriamo.\n",
+    "url": "https://yomi.digital/",
+    "image": "/media/projects/yomi.jpeg",
+    "topics": ["software"],
+    "socialNetworks": {
+      "twitter": "YOMI_WEB3"
+    },
+    "createdAt": "2023-01-19T09:28:58.627Z"
+  },
+  {
+    "slug": "youngplatform",
+    "name": "Young platform",
+    "type": "organization",
+    "status": "active",
+    "tagline": "Crypto Made Easy",
+    "description": "\nFondata nel 2018 da sei studenti di Informatica dell’Università di Torino accomunati sin dalle scuole superiori dalla passione per la tecnologia blockchain - Andrea Ferrero, Alexandru Stefan Gheban, Samuele Raimondo, Andrea Carollo, Marco Ciarmoli e Daniele Rinaldi - Young Platform si propone di semplificare l’accesso al mondo delle criptovalute attraverso un hub di prodotti digitali che rispondono alle esigenze di diversi segmenti di utenti, dal principiante all’esperto, e un’intensa attività educativa e di divulgazione della tecnologia blockchain e delle sue applicazioni.\n\nIn soli tre anni la società, che ha sede presso l’incubatore I3P del Politecnico di Torino, si è affermata come la realtà italiana più promettente nel settore delle valute digitali, con una community in costante crescita che conta ad oggi 300.000 utenti complessivi\n",
+    "url": "https://youngplatform.com/",
+    "image": "/media/projects/youngplatform.jpg",
+    "topics": [],
+    "socialNetworks": {
+      "twitter": "youngplatform"
+    },
+    "createdAt": "2023-01-21T15:55:04.793Z"
+  }
+]
