@@ -7,6 +7,8 @@ url: 'https://bottegadao.eth.link/'
 image: '/media/projects/bottegadao.jpeg'
 socialNetworks:
   twitter: 'BottegaDAO'
+topics:
+  - dao
 ---
 
 Bottega è un collettivo decentralizzato di artisti, collezionisti, curatori, critici, scrittori, sviluppatori, appassionati di arte, blockchain e nuove tecnologie.

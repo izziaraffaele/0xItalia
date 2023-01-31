@@ -1,5 +1,5 @@
 ---
-name: 'DeFi Italia'
+name: 'Decrypted'
 type: 'community'
 status: 'active'
 tagline: 'La community di riferimento in Italia per la divulgazione del mondo cripto.'
