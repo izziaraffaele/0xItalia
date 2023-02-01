@@ -4,7 +4,7 @@ type: 'product'
 status: 'active'
 tagline: 'Ultimate gaming experience amplified by Blockchain'
 url: 'https://visiongame.io/'
-image: '/media/projects/visiongame.jpeg'
+image: '/media/projects/visiongame.png'
 socialNetworks:
   twitter: 'visiongame_'
 topics:

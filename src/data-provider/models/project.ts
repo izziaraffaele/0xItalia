@@ -28,10 +28,10 @@ export const ProjectModel = z.object({
   description: z.string().nullish(),
   url: z.string().url(),
   image: z.string().nullish(),
-  topics: z.string().array().default([]),
+  topics: z.array(z.string()).default([]),
   chain: z.nativeEnum(Chain).nullish(),
   socialNetworks: z.record(z.nativeEnum(SocialNetwork), z.string()).default({}),
-  createdAt: z.date(),
+  createdAt: z.coerce.date().transform((v) => v.toISOString()),
 });
 
 export type Project = z.infer<typeof ProjectModel>;

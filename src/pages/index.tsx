@@ -2,7 +2,7 @@ import { Container, Stack, Box, Typography } from '@mui/material';
 // next
 import { GetStaticProps } from 'next';
 // data-provider
-import { collection, Project } from '../data-provider';
+import dp, { Project } from '../data-provider';
 // paths
 import { PATH_COLLECTIONS, PATH_PROJECTS } from '../paths';
 // hooks
@@ -80,25 +80,22 @@ export default function Home({ data }: PageProps) {
   );
 }
 
-export const getStaticProps: GetStaticProps<PageProps> = async (context) => {
-  const projects = collection('projects').sort(
-    (a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
-  );
+export const getStaticProps: GetStaticProps<PageProps> = async () => {
+  const projects = dp.projects
+    .find()
+    .sort(
+      (a, b) =>
+        new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
+    );
 
   const latest = projects.slice(0, 6);
+  const rest = projects.slice(6); // exclude latest projects
 
-  const communities = projects
-    .slice(6) // exclude latest projects
-    .filter((p) => p.type === 'community')
-    .slice(0, 6);
+  const communities = rest.filter((p) => p.type === 'community').slice(0, 6);
 
-  const products = projects
-    .slice(6) // exclude latest projects
-    .filter((p) => p.type === 'product')
-    .slice(0, 6);
+  const products = rest.filter((p) => p.type === 'product').slice(0, 6);
 
-  const organizations = projects
-    .slice(6) // exclude latest projects
+  const organizations = rest
     .filter((p) => p.type === 'organization')
     .slice(0, 6);
 

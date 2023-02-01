@@ -4,7 +4,7 @@ type: 'product'
 status: 'active'
 tagline: 'Non-custodial DeFi tools for managing your digital assets'
 url: 'https://folks.finance/'
-image: '/media/projects/folks_finance.jpeg'
+image: '/media/projects/folks_finance.png'
 socialNetworks:
   twitter: 'folksfinance'
   youtube: 'FolksFinance'

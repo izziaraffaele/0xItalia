@@ -7,15 +7,14 @@ import ProjectCard from '../../../components/ProjectCard';
 
 export type ProjectListGridProps<T> = Omit<GridProps, 'children'> & {
   data?: T[];
+  forwardRef?: React.Ref<any>;
 };
 
 export function ProjectListGrid<T>(props: ProjectListGridProps<T>) {
-  const { data, ...others } = props;
-
+  const { data, forwardRef, ...others } = props;
   const entries = useMemo(() => data || [...Array(12)], [data]);
-
   return (
-    <Grid container spacing={3} {...others}>
+    <Grid container spacing={3} ref={forwardRef} {...others}>
       {entries.map((item, index) => (
         <Grid
           key={index}

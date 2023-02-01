@@ -1,10 +1,9 @@
-import { useMemo, useState, useEffect } from 'react';
+import { useMemo } from 'react';
 import isEqual from 'lodash/isEqual';
 import isEmpty from 'lodash/isEmpty';
 // fuse.js
 import Fuse from 'fuse.js';
 // search
-import { createIndex } from '../search';
 import { useRouter } from 'next/router';
 
 type SearchFilter<T> = {
@@ -12,28 +11,33 @@ type SearchFilter<T> = {
 };
 
 type UseSearchControllerProps<T> = {
-  collection: string;
   input?: string | Fuse.Expression;
   filter?: SearchFilter<T>;
   data?: T[];
   options?: Fuse.IFuseOptions<T>;
+  cache?: unknown;
 };
 
 export function useSearchController<T>({
-  collection,
+  cache,
   input = '',
   data = [],
   options,
   filter,
 }: UseSearchControllerProps<T>) {
-  const [searchIndex, setSearchIndex] = useState<Fuse<T> | null>(null);
+  const indexCache = useMemo(() => Fuse.parseIndex(cache), [cache]);
+
+  const fuse = useMemo(
+    () => new Fuse(data, options, indexCache),
+    [indexCache, data, options]
+  );
 
   const searchResult = useMemo(() => {
     let dataset = data;
 
     // aplly full text search
-    if (searchIndex && !isEmpty(input)) {
-      dataset = searchIndex.search(input).map(({ item }) => item);
+    if (!isEmpty(input)) {
+      dataset = fuse.search(input).map(({ item }) => item);
     }
 
     // apply filters
@@ -42,18 +46,11 @@ export function useSearchController<T>({
     }
 
     return dataset;
-  }, [data, input, searchIndex, filter]);
-
-  useEffect(() => {
-    createIndex(collection, data, options).then((index) => {
-      setSearchIndex(index);
-    });
-  }, [options, data, collection]);
+  }, [data, input, fuse, filter]);
 
   return {
     results: searchResult,
     total: searchResult.length,
-    loading: !searchIndex,
   };
 }
 

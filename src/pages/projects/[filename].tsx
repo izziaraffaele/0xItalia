@@ -5,7 +5,7 @@ import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 // next
 import type { GetStaticProps, GetStaticPaths } from 'next';
 // data-provider
-import { collection, Project } from '../../data-provider';
+import dp, { Project } from '../../data-provider';
 // hooks
 import useLocales from '../../hooks/useLocales';
 // paths
@@ -68,9 +68,9 @@ export default function ProjectPage({ data }: PageProps) {
 }
 
 export const getStaticProps: GetStaticProps<PageProps> = async ({ params }) => {
-  const project =
-    params?.filename &&
-    collection('projects').find((item) => item.slug === params?.filename);
+  const project = params?.filename
+    ? dp.projects.getBySlug(String(params.filename))
+    : null;
 
   if (!project) {
     return { notFound: true };
@@ -84,7 +84,7 @@ export const getStaticProps: GetStaticProps<PageProps> = async ({ params }) => {
 };
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const paths = collection('projects').map((item) => ({
+  const paths = dp.projects.find().map((item) => ({
     params: { filename: item.slug },
   }));
 

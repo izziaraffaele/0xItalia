@@ -7,10 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prebuild": "yarn generate:data",
-    "predev": "yarn generate:data",
     "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest",
-    "generate:data": "npx tsx ./src/scripts/generate_data.ts",
     "test": "jest"
   },
   "dependencies": {
