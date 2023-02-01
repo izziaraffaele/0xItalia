@@ -1,10 +1,9 @@
-import {
-  LazyLoadImage,
-  LazyLoadImageProps,
-} from 'react-lazy-load-image-component';
+import { useMemo } from 'react';
+import NextImage, { ImageProps as NextImageProps } from 'next/image';
 // @mui
 import { Theme } from '@mui/material/styles';
-import { Box, BoxProps, SxProps } from '@mui/material';
+import { Box, SxProps } from '@mui/material';
+import uniqueId from 'lodash/uniqueId';
 // ----------------------------------------------------------------------
 
 export type ImageRato =
@@ -18,36 +17,44 @@ export type ImageRato =
   | '9/21'
   | '1/1';
 
-type IProps = BoxProps & LazyLoadImageProps;
+const shimmer = (w: number, h: number, id = uniqueId()) => `
+<svg height="${h}" viewBox="0 0 512 512" width="${w}" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <radialGradient id="a" cx="50%" cy="46.801102%" r="95.497112%">
+    <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+    <stop offset="1" stop-color="#919eab" stop-opacity=".48"/>
+  </radialGradient>
+  <path d="m88 86h512v512h-512z" fill="url(#a)" fill-rule="evenodd" transform="translate(-88 -86)"/>
+</svg>
+`;
 
-interface Props extends IProps {
+const toBase64 = (str: string) =>
+  typeof window === 'undefined'
+    ? Buffer.from(str).toString('base64')
+    : window.btoa(str);
+
+type ImageProps = NextImageProps & {
   sx?: SxProps<Theme>;
   ratio?: ImageRato;
-  disabledEffect?: boolean;
-  quality?: number;
-  disableLoader?: boolean;
-}
+  wrapperClassName?: string;
+};
 
 export default function Image({
   ratio,
-  disabledEffect = false,
-  effect = 'blur',
+  wrapperClassName,
   sx,
-  disableLoader,
+  title = '',
   src = '',
-  ...other
-}: Props) {
-  const { width = 0, height = 0, quality } = other;
+  ...others
+}: ImageProps) {
+  const { width = 0, height = 0, quality } = others;
 
-  const imageSrc = src;
-  // const imageSrc = disableLoader
-  //   ? src
-  //   : loadImage({
-  //       src,
-  //       width: width as number,
-  //       height: height as number,
-  //       quality,
-  //     });
+  const blurDataURL = useMemo<string>(
+    () =>
+      `data:image/svg+xml;base64,${toBase64(
+        shimmer(width as number, height as number)
+      )}`,
+    []
+  );
 
   if (ratio) {
     return (
@@ -72,19 +79,19 @@ export default function Image({
           ...sx,
         }}
       >
-        <Box
-          component={LazyLoadImage}
-          wrapperClassName="wrapper"
-          effect={disabledEffect ? undefined : effect}
-          placeholderSrc="/assets/placeholder.svg"
-          sx={{ width: 1, height: 1, objectFit: 'cover' }}
-          src={imageSrc}
-          {...other}
+        <NextImage
+          width={width}
+          height={height}
+          quality={quality}
+          title={title}
+          src={src}
+          placeholder={blurDataURL ? 'blur' : undefined}
+          blurDataURL={blurDataURL}
+          {...others}
         />
       </Box>
     );
   }
-
   return (
     <Box
       component="span"
@@ -100,14 +107,15 @@ export default function Image({
         ...sx,
       }}
     >
-      <Box
-        component={LazyLoadImage}
-        wrapperClassName="wrapper"
-        effect={disabledEffect ? undefined : effect}
-        placeholderSrc="/assets/placeholder.svg"
-        sx={{ width: 1, height: 1, objectFit: 'cover' }}
-        src={imageSrc}
-        {...other}
+      <NextImage
+        width={width}
+        height={height}
+        quality={quality}
+        title={title}
+        src={src}
+        placeholder={blurDataURL ? 'blur' : undefined}
+        blurDataURL={blurDataURL}
+        {...others}
       />
     </Box>
   );

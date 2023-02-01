@@ -3,8 +3,10 @@ import isEqual from 'lodash/isEqual';
 import isEmpty from 'lodash/isEmpty';
 // fuse.js
 import Fuse from 'fuse.js';
-// search
+// next
 import { useRouter } from 'next/router';
+// config
+import { SEARCH } from '../config';
 
 type SearchFilter<T> = {
   [Filter in keyof T]?: string | number | boolean | ((v: T) => boolean);
@@ -28,7 +30,7 @@ export function useSearchController<T>({
   const indexCache = useMemo(() => Fuse.parseIndex(cache), [cache]);
 
   const fuse = useMemo(
-    () => new Fuse(data, options, indexCache),
+    () => new Fuse(data, { ...SEARCH, ...options }, indexCache),
     [indexCache, data, options]
   );
 

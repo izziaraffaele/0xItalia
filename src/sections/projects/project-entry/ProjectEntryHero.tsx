@@ -156,7 +156,9 @@ export default function ProjectEntryHero({ data }: ProjectEntryHeroProps) {
             boxShadow: theme.customShadows.z8,
           }}
         >
-          {image && <Image src={image} alt={name} width={80} height={80} />}
+          {image && (
+            <Image src={image} alt={name} width={80} height={80} priority />
+          )}
         </Box>
         <Box>
           <Stack direction="row" alignItems="center" spacing={2}>

@@ -13,17 +13,9 @@ export const SEO = {
 };
 
 export const SEARCH = {
-  options: {
-    includeScore: true,
-    minMatchCharLength: 2,
-    threshold: 0.5,
-  },
-  collections: {
-    projects: {
-      keys: ['name', 'tagline', 'description', 'tags', 'type'],
-      options: {},
-    },
-  },
+  includeScore: true,
+  minMatchCharLength: 2,
+  threshold: 0.5,
 };
 
 // MULTI LANGUAGES
