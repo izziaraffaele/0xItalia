@@ -1,4 +1,6 @@
-import { format, getTime, formatDistanceToNow } from 'date-fns';
+import format from 'date-fns/format';
+import formatDistanceToNow from 'date-fns/formatDistanceToNow';
+import getTime from 'date-fns/getTime';
 
 // ----------------------------------------------------------------------
 

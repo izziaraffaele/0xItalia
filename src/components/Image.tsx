@@ -32,10 +32,11 @@ const toBase64 = (str: string) =>
     ? Buffer.from(str).toString('base64')
     : window.btoa(str);
 
-type ImageProps = NextImageProps & {
+type ImageProps = Omit<NextImageProps, 'src'> & {
   sx?: SxProps<Theme>;
   ratio?: ImageRato;
   wrapperClassName?: string;
+  src?: string;
 };
 
 export default function Image({

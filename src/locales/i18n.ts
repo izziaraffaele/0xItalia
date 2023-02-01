@@ -1,7 +1,7 @@
 import i18n from 'i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 import { initReactI18next } from 'react-i18next';
-import { setDefaultOptions } from 'date-fns';
+import setDefaultOptions from 'date-fns/setDefaultOptions';
 import itDateFnsLocales from 'date-fns/locale/it';
 // config
 import { I18N } from '../config';
